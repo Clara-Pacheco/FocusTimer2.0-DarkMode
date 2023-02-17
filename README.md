@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
 <img width="220px" src="https://raw.githubusercontent.com/Rocketseat/awesome/master/assets/logo_rocketseat.png" alt="">&nbsp;&nbsp;&nbsp;
 <img width="150px" src="https://www.rocketseat.com.br/_next/image?url=%2Fassets%2Flogos%2Fexplorer.svg&w=256&q=75"  alt="">
 <br>
@@ -78,4 +78,4 @@ no decorrer do programa <b>Explorer</b>.
 <div align="center">
 Feito com 💜 por Clara 🚀
 </div>
-</p>
+</p> -->
