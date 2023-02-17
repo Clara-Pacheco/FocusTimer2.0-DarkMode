@@ -21,6 +21,8 @@ Principais pontos abordados nesse desafio:
 - Implantar lógica javascript na web;
 - Manipulação de svg pelo js;
 - Trabalhar com a DOM,
+- Criação de Dark-Mode;
+- Trabalhar com o volume dos sons de cada card;
 - Trabalhar com eventos,
 - Acesso a métodos e atributos de objetos de eventos,
 - Object Destructuring
