@@ -1,0 +1,112 @@
+:root {
+  font-size: 62.5%;
+
+  --bg-color: #fff;
+  --text-color: #323238;
+
+  --bg-card-color: #E1E1E6;
+  --fill-svg-color: #323238;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  height: 100vh;
+  background-color: var(--bg-color);
+
+  display: grid;
+  place-content: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:19.2rem;
+}
+
+.time {
+  width: 40.7rem;
+  height: 21.3rem;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.6rem;
+  line-height: 14.8rem;
+
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--text-color);
+
+  display:flex;
+
+
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 4rem;
+}
+
+.cards {
+  width: 30.8rem;
+  height: 33.6rem;
+  display: grid;
+  grid-template-areas: 'a b'
+                       'c d';
+  grid-gap:3.2rem;
+                       
+}
+
+.forest {
+  grid-area: a;
+}
+
+.rain {
+  grid-area: b;
+}
+
+.cafeteria {
+  grid-area: c;
+}
+
+.fireplace {
+  grid-area: d;
+}
+
+.card-container {
+  width: 13.8rem;
+  height: 15.2rem;
+
+
+  background: var(--bg-card-color);
+  border-radius: 2.4rem;
+}
+
+/* Card active classes */
+
+.activeBg {
+  fill: #02799D;
+  
+}
+
+.activePath {
+  fill: #fff;
+}
+
+
+
+
