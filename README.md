@@ -43,7 +43,9 @@ Aqui neste **[link](https://www.figma.com/file/i0NrFLRzyE9nitftcCaC9N/Stage-05--
 
 O resultado final desse desafio deve ser algo em torno de:
 
-![Project´s preview]()  
+![Project´s preview](https://github.com/Clara-Pacheco/FocusTimer2.0-DarkMode/blob/main/assets/project-preview/Light%20Mode.png)  
+
+![Project´s preview](https://github.com/Clara-Pacheco/FocusTimer2.0-DarkMode/blob/main/assets/project-preview/Dark%20Mode.png)  
 
 <br>
 
