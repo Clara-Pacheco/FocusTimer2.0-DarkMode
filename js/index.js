@@ -84,10 +84,6 @@ Events({
 DarkMode({
   minutes,
   seconds,
-  btnPlay,
-  btnStop,
-  btnPlus,
-  btnMinus,
   bgForestCard,
   forestCardPath,
   bgRainCard,

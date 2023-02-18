@@ -1,10 +1,6 @@
 export function DarkMode({
   minutes,
   seconds,
-  btnPlay,
-  btnStop,
-  btnPlus,
-  btnMinus,
   bgForestCard,
   forestCardPath,
   bgRainCard,
@@ -21,10 +17,7 @@ export function DarkMode({
 
   const sun = document.querySelector('.light-icon')
   const moon = document.querySelector('.dark-icon')
-  const sunPath = document.querySelector('.light-icon-path')
-  const moonPath = document.querySelector('.dark-icon-path')
-
-  const documentBody = document.querySelector('body')
+ 
   const separationMinutesSeconds = document.querySelector('.separation-minuts-seconds') 
 
   function switchLightDarkModes(){
