@@ -8,6 +8,8 @@ import { Controls } from './controls.js'
 
 import { Timer } from './timer.js'
 
+import { DarkMode } from './darkMode.js'
+
 const {
   forestCard,
   rainCard,
@@ -26,7 +28,11 @@ const {
   btnPlay,
   btnStop,
   btnPlus,
-  btnMinus
+  btnMinus,
+  btnPlayPath,
+  btnStopPath,
+  btnPlusPath,
+  btnMinusPath
 } = elements 
 
 const Sounds = sounds()
@@ -74,6 +80,27 @@ Events({
   
 })
 
+
+DarkMode({
+  minutes,
+  seconds,
+  btnPlay,
+  btnStop,
+  btnPlus,
+  btnMinus,
+  bgForestCard,
+  forestCardPath,
+  bgRainCard,
+  rainCardPath,
+  bgCafeteriaCard,
+  cafeteriaCardPath,
+  bgFireplaceCard,
+  fireplaceCardPath,
+  btnPlayPath,
+  btnStopPath,
+  btnPlusPath,
+  btnMinusPath
+})
 
 
 
