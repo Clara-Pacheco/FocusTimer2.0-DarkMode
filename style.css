@@ -19,11 +19,12 @@
 
 body {
   display:relative;
+  
 }
 
 main {
   height: 100vh;
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
 
   display: grid;
   place-content: center;

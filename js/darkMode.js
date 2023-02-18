@@ -52,7 +52,7 @@ export function DarkMode({
     cafeteriaCardPath.style.fill = '#C4C4CC'
     fireplaceCardPath.style.fill = '#C4C4CC'
 
-    // document.body.style.backgroundColor = '#121214'
+    document.body.style.backgroundColor = '#121214'
 
   })
 
@@ -73,6 +73,8 @@ export function DarkMode({
     rainCardPath.style.fill = '#323238'
     cafeteriaCardPath.style.fill = '#323238'
     fireplaceCardPath.style.fill = '#323238'
+
+    document.body.style.backgroundColor = '#FFF'
   })
 
  
