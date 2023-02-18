@@ -43,7 +43,17 @@ export function DarkMode({
     btnStopPath.style.fill = '#C4C4CC'
     btnPlusPath.style.fill = '#C4C4CC'
     btnMinusPath.style.fill = '#C4C4CC'
-    
+    bgForestCard.style.fill = '#29292E'
+    bgRainCard.style.fill = '#29292E'
+    bgCafeteriaCard.style.fill = '#29292E'
+    bgFireplaceCard.style.fill = '#29292E'
+    forestCardPath.style.fill = '#C4C4CC'
+    rainCardPath.style.fill = '#C4C4CC'
+    cafeteriaCardPath.style.fill = '#C4C4CC'
+    fireplaceCardPath.style.fill = '#C4C4CC'
+
+    // document.body.style.backgroundColor = '#121214'
+
   })
 
   moon.addEventListener('click',()=>{
@@ -55,6 +65,14 @@ export function DarkMode({
     btnStopPath.style.fill = '#323238'
     btnPlusPath.style.fill = '#323238'
     btnMinusPath.style.fill = '#323238'
+    bgForestCard.style.fill = '#E1E1E6'
+    bgRainCard.style.fill = '#E1E1E6'
+    bgCafeteriaCard.style.fill = '#E1E1E6'
+    bgFireplaceCard.style.fill = '#E1E1E6'
+    forestCardPath.style.fill = '#323238'
+    rainCardPath.style.fill = '#323238'
+    cafeteriaCardPath.style.fill = '#323238'
+    fireplaceCardPath.style.fill = '#323238'
   })
 
  
