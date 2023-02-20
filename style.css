@@ -92,12 +92,13 @@ main {
 }
 
 .card-container {
-  width: 13.8rem;
-  height: 15.2rem;
+  position: relative;
 
-
-  background: var(--bg-card-color);
-  border-radius: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+  
 }
 
 /* Card active classes */
@@ -124,6 +125,25 @@ main {
 
   margin-top: 6rem;
   margin-right: 6rem;
+}
+
+.progress {
+
+  width: 90px;
+  height: 4px;
+
+  background: #FFFFFF;
+  border-radius: 5px;
+
+  position: absolute;
+  bottom: 0;
+
+  margin-bottom: 2.4rem;
+  margin-top: 3.2rem;
+
+ 
+
+ 
 }
 
 
