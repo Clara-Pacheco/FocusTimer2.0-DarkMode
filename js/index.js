@@ -32,10 +32,19 @@ const {
   btnPlayPath,
   btnStopPath,
   btnPlusPath,
-  btnMinusPath
+  btnMinusPath,
+  inputForest,
+  inputRain,
+  inputCoffee,
+  inputFireplace
 } = elements 
 
-const Sounds = sounds()
+const Sounds = sounds({
+  inputForest,
+  inputRain,
+  inputCoffee,
+  inputFireplace
+})
 
 const controls = Controls({
   bgForestCard,
