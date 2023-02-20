@@ -20,7 +20,10 @@ const btnPlayPath = document.querySelector('.btn-play-path')
 const btnStopPath = document.querySelector('.btn-stop-path')
 const btnPlusPath = document.querySelector('.btn-plus-path')
 const btnMinusPath = document.querySelector('.btn-minus-path')
-
+const inputForest = document.querySelector('.inputForest')
+const inputRain = document.querySelector('.inputRain')
+const inputCoffee = document.querySelector('.inputCoffee')
+const inputFireplace = document.querySelector('.inputFireplace')
 
  export const elements = {
   forestCard,
@@ -44,6 +47,10 @@ const btnMinusPath = document.querySelector('.btn-minus-path')
   btnPlayPath,
   btnStopPath,
   btnPlusPath,
-  btnMinusPath
+  btnMinusPath,
+  inputForest,
+  inputRain,
+  inputCoffee,
+  inputFireplace
 
 }
