@@ -12,12 +12,7 @@ export function DarkMode({
   btnPlayPath,
   btnStopPath,
   btnPlusPath,
-  btnMinusPath,
-  forestCard,
-  rainCard,
-  cafeteriaCard,
-  fireplaceCard
-  
+  btnMinusPath
 }){
 
   const sun = document.querySelector('.light-icon')
