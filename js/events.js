@@ -23,7 +23,7 @@ export function Events({
   forestCard.addEventListener('click', () => {
     controls.toggleForestCard()
     if(bgForestCard.classList.contains('activeBg')){
-      Sounds.playForestSound()
+      Sounds.soundForestStart()
     }else {
       Sounds.stopForestSound()
     }  
@@ -33,7 +33,7 @@ export function Events({
   rainCard.addEventListener('click', () => {
     controls.toggleRainCard()
     if(bgRainCard.classList.contains('activeBg')){
-      Sounds.playRainSound()
+      Sounds.soundRainStart()
     }else{
       Sounds.stopRainSound()
     }
@@ -43,7 +43,7 @@ export function Events({
   cafeteriaCard.addEventListener('click', () => {
     controls.toggleCafeteriaCard()
     if(bgCafeteriaCard.classList.contains('activeBg')){
-      Sounds.playCafeteriaSound()
+      Sounds.soundCoffeeStart()
     }else {
       Sounds.stopCafeteriaSound()
     }
@@ -53,7 +53,7 @@ export function Events({
   fireplaceCard.addEventListener('click', () => {
     controls.toggleFireplaceCard()
     if(bgFireplaceCard.classList.contains('activeBg')){
-      Sounds.playFireplaceSound()
+      Sounds.soundFireplaceStart()
     }else {
       Sounds.stopFireplaceSound()
     }
