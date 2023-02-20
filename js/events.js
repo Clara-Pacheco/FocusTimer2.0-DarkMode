@@ -131,28 +131,14 @@ export function Events({
 
   btnMinus.addEventListener('click', () => {
 
-    if(seconds.innerText > 0){
-      seconds.innerText = Number(seconds.innerText) - 5
+  if(minutes.textContent > 0 && minutes.textContent > 4){
+    minutes.textContent = String(Number(minutes.textContent) - 5).padStart(2, '0');
+
+  }else{
+    minutes.textContent = String(Number(60)).padStart(2, '0');
+  }
+
   
-    }
-
-    if(seconds.innerText == 0){
-      minutes.innerText = Number(minutes.innerText) - 1
-      seconds.innerText = 59
-    }
-
-    if(seconds.innerText == 4 && minutes.innerText == 0){
-      seconds.innerText = Number(seconds.innerText) - 4
-     
-    }
-
-    if(seconds.innerText == 0 && minutes.innerText == 0){
-     minutes.innerText = 25
-     seconds.innerText = '00'
-
-    }
-
-
     timer.updateTimerDisplay(minutes.innerText,seconds.innerText)
   })
 
