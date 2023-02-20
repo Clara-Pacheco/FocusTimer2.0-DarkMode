@@ -6,13 +6,18 @@ export function Controls({
   bgCafeteriaCard,
   cafeteriaCardPath,
   bgFireplaceCard,
-  fireplaceCardPath
+  fireplaceCardPath,
+  forestCard,
+  rainCard,
+  cafeteriaCard,
+  fireplaceCard
   
 }){
 
   function toggleForestCard(){
     bgForestCard.classList.toggle('activeBg')
     forestCardPath.classList.toggle('activePath')
+    
   }
 
   function toggleRainCard(){

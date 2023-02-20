@@ -45,7 +45,11 @@ const controls = Controls({
   bgCafeteriaCard,
   cafeteriaCardPath,
   bgFireplaceCard,
-  fireplaceCardPath
+  fireplaceCardPath,
+  forestCard,
+  rainCard,
+  cafeteriaCard,
+  fireplaceCard
 })
 
 const timer = Timer({
@@ -95,7 +99,8 @@ DarkMode({
   btnPlayPath,
   btnStopPath,
   btnPlusPath,
-  btnMinusPath
+  btnMinusPath,
+  
 })
 
 

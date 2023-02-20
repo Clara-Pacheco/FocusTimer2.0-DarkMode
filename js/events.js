@@ -27,6 +27,7 @@ export function Events({
     }else {
       Sounds.stopForestSound()
     }  
+
   })
 
   rainCard.addEventListener('click', () => {
@@ -101,7 +102,7 @@ export function Events({
       seconds.innerText = 59
     }
 
-    if(seconds.innerText < 0){
+    if(seconds.innerText < 0 && minutes.innerText >= 0){
       minutes.innerText = Number(minutes.innerText) - 1
       seconds.innerText = 59
     }

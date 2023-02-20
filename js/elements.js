@@ -21,6 +21,7 @@ const btnStopPath = document.querySelector('.btn-stop-path')
 const btnPlusPath = document.querySelector('.btn-plus-path')
 const btnMinusPath = document.querySelector('.btn-minus-path')
 
+
  export const elements = {
   forestCard,
   rainCard,

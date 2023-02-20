@@ -12,7 +12,12 @@ export function DarkMode({
   btnPlayPath,
   btnStopPath,
   btnPlusPath,
-  btnMinusPath
+  btnMinusPath,
+  forestCard,
+  rainCard,
+  cafeteriaCard,
+  fireplaceCard
+  
 }){
 
   const sun = document.querySelector('.light-icon')
@@ -35,7 +40,7 @@ export function DarkMode({
     btnPlayPath.style.fill = '#C4C4CC'
     btnStopPath.style.fill = '#C4C4CC'
     btnPlusPath.style.fill = '#C4C4CC'
-    btnMinusPath.style.fill = '#C4C4CC'
+    btnMinusPath.style.fill = '#C4C4CC' 
     bgForestCard.style.fill = '#29292E'
     bgRainCard.style.fill = '#29292E'
     bgCafeteriaCard.style.fill = '#29292E'
@@ -46,6 +51,8 @@ export function DarkMode({
     fireplaceCardPath.style.fill = '#C4C4CC'
 
     document.body.style.backgroundColor = '#121214'
+
+    forestCard.style.backgroundColor ='#29292E'
 
   })
 
@@ -70,7 +77,7 @@ export function DarkMode({
     document.body.style.backgroundColor = '#FFF'
   })
 
- 
+  
 
 }
 
