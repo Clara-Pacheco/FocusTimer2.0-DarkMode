@@ -132,7 +132,7 @@ main {
   width: 90px;
   height: 4px;
 
-  background: #FFFFFF;
+  
   border-radius: 5px;
 
   position: absolute;
@@ -140,11 +140,9 @@ main {
 
   margin-bottom: 2.4rem;
   margin-top: 3.2rem;
-
- 
-
  
 }
+
 
 
 
