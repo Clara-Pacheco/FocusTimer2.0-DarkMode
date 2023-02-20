@@ -108,7 +108,7 @@ DarkMode({
   btnPlayPath,
   btnStopPath,
   btnPlusPath,
-  btnMinusPath,
+  btnMinusPath
   
 })
 
