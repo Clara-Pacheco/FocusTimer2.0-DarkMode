@@ -141,9 +141,15 @@ export function Events({
       seconds.innerText = 59
     }
 
-    if(seconds.innerText < 0 && minutes.innerText >= 0){
-      minutes.innerText = Number(minutes.innerText) - 1
-      seconds.innerText = 59
+    if(seconds.innerText == 4 && minutes.innerText == 0){
+      seconds.innerText = Number(seconds.innerText) - 4
+     
+    }
+
+    if(seconds.innerText == 0 && minutes.innerText == 0){
+     minutes.innerText = 25
+     seconds.innerText = '00'
+
     }
 
 
