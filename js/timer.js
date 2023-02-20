@@ -23,6 +23,8 @@ export function Timer({
         Sounds.stopFireplaceSound()
         Sounds.stopForestSound()
         Sounds.stopRainSound()
+        minutes.innerText = 25
+        seconds.innerText = '00'
         return
       }
 
