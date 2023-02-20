@@ -52,7 +52,6 @@ export function DarkMode({
 
     document.body.style.backgroundColor = '#121214'
 
-    forestCard.style.backgroundColor ='#29292E'
 
   })
 
