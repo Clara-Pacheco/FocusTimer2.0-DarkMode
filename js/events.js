@@ -131,7 +131,7 @@ export function Events({
 
   btnMinus.addEventListener('click', () => {
 
-  if(minutes.textContent > 0 && minutes.textContent > 4){
+  if(minutes.textContent > 4 ){
     minutes.textContent = String(Number(minutes.textContent) - 5).padStart(2, '0');
 
   }else{
