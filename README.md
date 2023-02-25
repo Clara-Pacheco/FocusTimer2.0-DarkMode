@@ -73,7 +73,7 @@ Nesta aplicação temos por padrão o tempo de 25 minutos em seu display, funcio
 
 - Botões "Play" e "Pause", alternam suas posições, iniciando a contagem regressiva e interrompendo o tempo, respectivamente;
 - Botão "Stop" resetando o temporizador e e desativanddo todos os botões de controle pressionados;
-- Botão "(+)" para adicionar 5 segundos, adicionando 1 minuto após ao chegar em 60 segundos e, botão  "(-)", que removerá 5 minutos  do temporizador.
+- Botão "(+)" para adicionar 5 minutos, e botão  "(-)", que removerá 5 minutos  do temporizador.
 
 ### 🔉 Botões de cards de áudio:
 
