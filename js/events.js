@@ -120,11 +120,12 @@ export function Events({
   })
 
   btnPlus.addEventListener('click', () => {
-    seconds.innerText = Number(seconds.innerText) + 5
-    if(seconds.innerText >= 60){
-      seconds.innerText = 0
-      minutes.innerText = Number(minutes.innerText) + 1
-    }
+    minutes.textContent = String(Number(minutes.textContent) + 5).padStart(2, '0');
+    // seconds.innerText = Number(seconds.innerText) + 5
+    // if(seconds.innerText >= 60){
+    //   seconds.innerText = 0
+    //   minutes.innerText = Number(minutes.innerText) + 1
+    // }
     timer.updateTimerDisplay(minutes.innerText,seconds.innerText)
     
   })
